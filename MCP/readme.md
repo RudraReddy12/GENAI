@@ -1,9 +1,14 @@
 #  CryptoMind — MCP Crypto Chatbot
 
-A focused MCP chatbot using **Gemini** as the LLM and **CoinGecko** for live crypto prices and coin comparisons.
+A focused MCP chatbot using **Gemini** as the LLM and **CoinGecko** for live crypto prices and coin comparisons using MCP.
 No keyword matching. No rule-based routing. Gemini decides when to call the tool.
 
 ---
+## Problem Statement : 
+Crypto users require fast, accurate, and real-time price insights along with meaningful comparisons between cryptocurrencies in a conversational interface. However, existing chatbot solutions often hallucinate information, rely on outdated data, or lack seamless integration with real-time crypto APIs, resulting in unreliable and inconsistent user experiences.
+
+## Business objective:
+The primary business objective is to build a crypto chatbot that can answers to user quries regarding the crypto currencies based on the real time data
 
 ## 📁 Files
 
