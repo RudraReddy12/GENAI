@@ -1,4 +1,4 @@
-# 💎 CryptoMind — MCP Crypto Chatbot
+#  CryptoMind — MCP Crypto Chatbot
 
 A focused MCP chatbot using **Gemini** as the LLM and **CoinGecko** for live crypto prices and coin comparisons.
 No keyword matching. No rule-based routing. Gemini decides when to call the tool.
@@ -18,7 +18,7 @@ mcp_crypto/
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 ```bash
 # 1. Install dependencies
@@ -38,7 +38,7 @@ CoinGecko needs no key.
 
 ---
 
-## 🔄 MCP Flow
+##  MCP Flow
 
 ```
 User: "What's the price of Bitcoin?"
@@ -58,7 +58,7 @@ User sees clean, natural response
 
 ---
 
-## 🧪 Test Queries
+##  Test Queries
 
 | Type | Example |
 |------|---------|
@@ -69,16 +69,15 @@ User sees clean, natural response
 
 ---
 
-## 💡 Coin Aliases Supported
+##  Coin Aliases Supported
 
 `BTC → bitcoin`, `ETH → ethereum`, `SOL → solana`, `DOGE → dogecoin`,
 `BNB → binancecoin`, `XRP → ripple`, `ADA → cardano`, `SHIB → shiba-inu`, `MATIC`, `AVAX`
 
 ---
 
-## 🚀 Phases
+##  Phases
 
 - **Phase 1 ✅** — Single crypto tool, Gemini LLM, Streamlit UI, chat history
 - **Phase 2 ✅** — Multi-coin comparisons (`BTC vs ETH`)
 - **Phase 3** — Price charts
-- **Phase 4** — Portfolio queries, memory, alerts
